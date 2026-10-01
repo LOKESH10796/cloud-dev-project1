@@ -47,6 +47,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Lokesh Gounder - [@lokeshgounder](https://twitter.com/lokeshgounder) - lokesh@example.com
+Lokesh Gounder - - lokeshgounder@gmail.com
 
 Project Link: [https://github.com/LOKESH10796/UDACITY-PROJECT-1](https://github.com/LOKESH10796/UDACITY-PROJECT-1)
