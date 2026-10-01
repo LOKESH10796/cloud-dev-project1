@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CloudFront + S3 Infrastructure Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <svg class="aws-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M165.74 135.53c-4.46-3.23-11.45-5.38-21.61-5.38-19.53 0-35.07 9.84-35.07 27.53 0 16.3 11.23 23.38 24.3 23.38 12 0 21.38-6 26.15-13.07v11.23h19.53V134.15c0-18.76-12.76-29.22-31.38-29.22-16.15 0-29.53 8.3-33.84 21.07l18 6.46c2.77-7.23 9.38-11.23 16.3-11.23 9.38 0 14.15 5.07 14.15 13.53v4.77h-16.53zm-3.38 21.84c-3.23 5.38-9.07 9.23-15.69 9.23-7.53 0-11.23-4-11.23-9.84 0-7.38 6-10.76 17.53-10.76h9.38v11.37zm-95.67-17.69c-2.3-12.15-10.15-18.45-21-18.45C33.39 121.23 20 131.69 20 148.91c0 18.61 11.84 29.53 26 29.53 10.3 0 18.15-6 21-17.53l-18-5.07c-1.38 4.77-5.07 7.07-9.38 7.07-6 0-10.3-4.77-10.3-12.92h41.07c.3-1.69.46-3.84.46-6.15 0-12.3-6.15-24.15-24.16-24.15zm-15.38 11.07c0-5.84 3.53-11.07 9.53-11.07 5.23 0 8.46 4.3 9.07 11.07h-18.6zm154.55 31.84c16 0 27.22-9.69 31.68-23.69l-18.15-6c-2.3 6.92-7.23 11.53-14.76 11.53-8.61 0-13.07-6.92-13.07-16.76s4.46-16.76 13.07-16.76c7.53 0 12 4.15 14.46 11.07l18-6c-4.46-13.53-15.07-22.92-32.45-22.92-19.69 0-33.07 13.07-33.07 34.61 0 21.07 13.23 34.92 34.29 34.92zm70.13-13.84c-12-32.92-17.07-55.52-17.07-55.52h-21.23l12.77 56h-21.07l12-56H204s-9.38 29.69-17.23 55.52h19.53s2.92-10 4.15-14l4.3 14h21.23zm-68.91 38.3c-23.07 8.3-52.14 11.69-79.67 11.69-37.38 0-66.91-7.23-88.59-16.15 5.53 7.84 15.69 13.07 28.15 13.07 8.61 0 19.38-2.3 32.15-5.53 23.38-5.84 54.45-13.84 81.36-13.84 27.69 0 54 7.69 76.6 15.53-15.06-8-32.45-12.76-50-14.76z"/></svg>
+            <h1>Cloud Infrastructure Success</h1>
+            <p>If you are seeing this page, the Terraform IaC deployment was successful.</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>🌍 Global CDN Active</h2>
+                <p>This application is currently being served by an ultra-fast <strong>Amazon CloudFront</strong> edge location near you.</p>
+            </div>
+            <div class="card">
+                <h2>🪣 Amazon S3 Origin</h2>
+                <p>The static assets (HTML, CSS, JS) are securely hosted on a private <strong>Amazon S3 Bucket</strong> acting as the web origin.</p>
+            </div>
+            <div class="card">
+                <h2>⚙️ Infrastructure as Code</h2>
+                <p>This entire infrastructure was programmatically provisioned using <strong>Terraform</strong> modules to guarantee zero-downtime automated deployments.</p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Deployed by Lokesh Gounder via CI/CD • <a href="https://github.com/LOKESH10796" target="_blank">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
